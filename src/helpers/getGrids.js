@@ -8,7 +8,7 @@ export const getGifs = async ( category ) => {
   // para solo quedarme con el objeto array con los 10 elementos lo desestructuramos {data}
   // console.log(data);
   const gifs = data.map ( img => {
-    console.log('objeto completo:',img);
+    // console.log('objeto completo:',img);
     return {
       id: img.id,
       title: img.user?.display_name, // cambie el title por display.name para tener un titulo mas corto

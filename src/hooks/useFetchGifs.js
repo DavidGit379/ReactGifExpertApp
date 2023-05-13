@@ -11,7 +11,7 @@ export const useFetchGifs = ( category ) => {
     
     getGifs ( category )
       .then (imgs => {
-          console.log('solo la data que nos interesa del objeto',imgs);
+          // console.log('solo la data que nos interesa del objeto',imgs);
           setState({
             data: imgs,
             loading: false
